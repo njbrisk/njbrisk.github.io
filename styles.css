@@ -14,10 +14,10 @@ background-color: lavender;
 }
 
 
-ol {
+ol.a {
   list-style-type: lower-alpha;
 }
 
-ul {
+ul.b {
   list-style-type: square;}
 
