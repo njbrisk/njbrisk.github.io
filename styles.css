@@ -3,6 +3,13 @@ body {
   color: gray;
 }
 
+div.class-selector {
+  width: 200px;
+  height: 200px;
+  border: 2px dotted black;
+
+}
+
 h1 {
   font-size: 20px;
 }
@@ -19,5 +26,6 @@ ol.a {
 }
 
 ul.b {
-  list-style-type: square;}
+  list-style-type: square;
+}
 
