@@ -1,6 +1,6 @@
 body {
   background-color: ivory;
-  color: grey;
+  color: gray;
 }
 
 h1 {
@@ -8,8 +8,16 @@ h1 {
 }
 
 p {
-  font-family: verdana;
   font-size: 16px;
 color: #00008B;
 background-color: lavender;
 }
+
+
+ol {
+  list-style-type: lower-alpha;
+}
+
+ul {
+  list-style-type: square;}
+
