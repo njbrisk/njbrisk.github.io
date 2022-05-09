@@ -1,3 +1,6 @@
+@charset "utf-8";
+/* CSS Document */
+
 body {
   background-color: ivory;
   color: gray;
@@ -7,10 +10,18 @@ div.class-selector {
   width: 200px;
   height: 200px;
   border: 2px dotted black;
+	margin-top: 15px;
+}
+
+div.menu {
+  background-color: grey;
+	margin-left: 5px;
 }
 
 h1 {
   font-size: 20px;
+	  border: 1px dashed black;
+	padding: 5px;
 }
 
 p {
@@ -28,3 +39,12 @@ ul.b {
   list-style-type: square;
 }
 
+a {background-color: white;
+	padding: 5px;
+	margin-left: 10px;
+	border-radius: 15px;
+}
+
+img {padding: 10px;}
+
+#ompelukone {float: right;}
