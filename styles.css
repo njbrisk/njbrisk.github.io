@@ -1,50 +1,201 @@
 @charset "utf-8";
 /* CSS Document */
 
-body {
-  background-color: ivory;
-  color: gray;
-}
+body {	width: 80%;
+ 		margin: auto;
+  		background-color: #E5E3C9;
+		font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	
+		}
 
-div.class-selector {
-  width: 200px;
-  height: 200px;
-  border: 2px dotted black;
-	margin-top: 15px;
-}
 
-div.menu {
-  background-color: grey;
-	margin-left: 5px;
-}
 
-h1 {
-  font-size: 20px;
-	  border: 1px dashed black;
-	padding: 5px;
-}
+/*OMINAISUUDET */
 
-p {
-  font-size: 16px;
-color: #00008B;
-background-color: lavender;
+header, main, nav, footer, section, article,
+figure, figcaption, aside { display: block; }
+
+
+h1, h2, h3 {   
+	color: #789395;
+	text-transform: uppercase;
+	padding-top: 10px;
+
 }
 
 
-ol.a {
-  list-style-type: lower-alpha;
+
+/*LINK-STYLES*/
+a {
+    color: black;
+	}
+
+a:hover {
+    color: #B4CFB0;
+	}
+
+main {
+	padding: 5px;}
+
+
+/*HEADER*/
+
+header {
+		margin: 0px 0px 0px 30px;
+		padding: 2px 2px 2px 10px;
 }
 
-ul.b {
-  list-style-type: square;
+#profiilikuva {
+		width: 200px;
+		border: 3px solid #000000;
+		border-radius: 20px;
+		margin: 0px 50px 0px 0px;
+		float: right;
+		}
+
+
+
+/*NAVIGATION*/
+
+nav 	{
+	
+		background-color: #94B49F ;
+		border: 0px solid #000000;
+	    margin: 0px 0px 50px 0px;
+		padding: 0px 0px 0px 0px;
+		border-radius: 10px 10px 10px 10px;
+		}
+
+nav ul { 
+		list-style-type: none;
+		}
+
+nav a { 
+		text-decoration: none;
+		padding-right: 10px; 
+		}
+
+nav li { 
+		display: inline; 
+		}
+
+
+
+
+/*ASIDE*/
+
+aside {
+		float: right;
+		width: 25%;
+	    margin: 40px 0px 30px 0px;
+		padding: 2px 10px 20px 20px;
+		border: 2px solid #000000;
+		border-radius: 15px;
+		background-color: #B4CFB0;
+	}
+
+	
+
+
+
+
+/*SECTION*/
+
+esittely {width: 40%;}
+
+section {
+		width: 60%;
+		margin: 10px 10px 0px 40px;
+		padding: 10px 10px 10px 10px;
+		border: 0px solid #000000;
 }
 
-a {background-color: white;
-	padding: 5px;
-	margin-left: 10px;
-	border-radius: 15px;
+
+article {
+
 }
 
-img {padding: 10px;}
 
-#ompelukone {float: right;}
+
+/*TABLE*/
+
+#tyokokemus {
+	width: 60%;
+	text-align: left;
+	padding-right: 10px;
+	margin: 20px 10px 50px 40px;
+}
+
+td {padding: 10px;
+	margin: 10px;}
+
+td.vuosi {
+	width: 20%;
+	text-align: left;
+	
+}
+
+
+#kielitaidot {
+		width: 60%;
+		margin: 40px 2px 0px 0px;
+		padding: 2px 0px 20px 5px;
+		border: 0px solid #000000;
+	
+}
+
+
+/*VALOKUVAT*/
+
+#valokuvat1 {
+		width: 60%;
+		margin: 10px 10px 10px 0px;
+		padding: 10px 10px 20px 10px;
+		border: 0px solid #000000;
+	display: block;
+}
+
+
+#valokuvat2 {
+		width: 60%;
+		margin: 10px 10px 10px 0px;
+		padding: 10px 10px 20px 10px;
+		border: 0px solid #000000;
+	display: block;
+}
+
+img.valokuva {
+			width: 400px;
+		border: 1px solid #000000;
+		border-radius: 10px;
+		margin: 10px 10px 10px 10px;
+}
+
+img.some {
+	width: 50px;
+			margin: 10px 10px 10px 10px;
+}
+
+
+
+/*SECTION ARTICLE*/
+
+
+
+
+
+/*PROGRESS*/
+
+
+
+
+/*FOOTER*/
+
+footer {
+	
+	border: 0px solid #000000;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 30px;
+
+}
+
